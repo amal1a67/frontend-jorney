@@ -19,8 +19,9 @@ ul {
     border-radius: 10px;
 }
 img {
-    max-width: 35%;
-    height: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
 }
 .container {
     display: flex;
@@ -31,4 +32,17 @@ h3 {
     padding: 20px;
     margin: 20px 0;
     border-radius: 10px;
+}
+
+.card {
+    display: flex;
+    gap: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.card img {
+    width: 150px;
+border-radius: 10px;
 }
